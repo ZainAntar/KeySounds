@@ -77,7 +77,7 @@ def main():
     generic_clicks, special_keys = load_sounds(base_dir)
 
     if not generic_clicks and not special_keys:
-        print("Uyarı: Hiç ses dosyası bulunamadı. Program dinlemede kalacak.")
+        print("Warning: No sound files were found. The app will continue listening.")
 
     on_press, on_release = create_handlers(generic_clicks, special_keys)
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
