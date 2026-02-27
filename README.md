@@ -1,46 +1,42 @@
-# KeySounds
+# 🎹 KeySounds
 
 KeySounds is a lightweight Python app that plays keyboard sound effects while you type.
 
-## Features
+## ✨ Features
 
-- Plays random click sounds for regular keys
-- Uses dedicated sounds for Space, Enter, and Backspace
-- Uses low-latency pygame mixer settings for responsive playback
+- 🔊 Random click sounds for regular keys
+- ⌨️ Dedicated sounds for `Space`, `Enter`, and `Backspace`
+- ⚡ Low-latency `pygame.mixer` setup for responsive playback
 
-## Requirements
+## 🖥️ Requirements
 
 - Python 3.10+
 - Windows
 
-## Installation
+## 🚀 Quick Start
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-## Usage
-
-```bash
 python main.py
 ```
 
-The app starts listening to keyboard input in the background. Press Ctrl + C in the terminal to stop it.
+The app starts listening to keyboard input in the background.
+Press `Ctrl + C` in the terminal to stop it.
 
-## Audio Files
+## 🎵 Audio Files
 
-Keep these files in the same folder as main.py:
+Keep these files in the same folder as `main.py`:
 
-- click1.wav
-- click2.wav
-- click3.wav
-- space.wav
-- enter.wav
-- delete.wav
+- `click1.wav`
+- `click2.wav`
+- `click3.wav`
+- `space.wav`
+- `enter.wav`
+- `delete.wav`
 
-## Build EXE (Optional)
+## 📦 Build EXE (Optional)
 
 ```bash
 pip install pyinstaller
@@ -54,12 +50,13 @@ pyinstaller --noconfirm --windowed --onefile \
   main.py
 ```
 
-The output will be created in the dist folder.
+The output is generated in the `dist` folder.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome. Feel free to open an issue or submit a pull request.
 
-## License
+## 📄 License
 
-This project is for personal and educational use. Add a LICENSE file if you plan to share it publicly.
+This project is currently for personal and educational use.
+If you plan to publish it publicly, add a `LICENSE` file (for example: MIT).
