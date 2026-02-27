@@ -60,3 +60,6 @@ Contributions are welcome. Feel free to open an issue or submit a pull request.
 
 This project is currently for personal and educational use.
 If you plan to publish it publicly, add a `LICENSE` file (for example: MIT).
+
+## 📫 Contatct
+antar.zain1@gmail.com
