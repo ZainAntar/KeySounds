@@ -63,4 +63,4 @@ If you plan to publish it publicly, add a `LICENSE` file (for example: MIT).
 
 ## 📬 Contact 
 
-- Email: antar.zain1@gmail.com
+ Email: antar.zain1@gmail.com
