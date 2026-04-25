@@ -1,19 +1,6 @@
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Build artifacts
-build/
-dist/
-*.exe
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# Ignore only selected folders
+/click sound 2/
+/click sound 3/
+/main click sounds/
+/nnn/
+/Old Key Sounds/
